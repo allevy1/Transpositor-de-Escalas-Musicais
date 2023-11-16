@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <title>Sua Escala</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pesquise sua escala</h1>
+      <span class="cabeça">
+        <button id="c" class="nota">C</button>
+        <button id="c#" class="nota">C#</button>
+        <button id="d" class="nota">D</button>
+        <button id="d#" class="nota">D#</button>
+        <button id="e" class="nota">E</button>
+        <button id="f" class="nota">F</button>
+        <button id="f#" class="nota">F#</button>
+        <button id="g" class="nota">G</button>
+        <button id="g#" class="nota">G#</button>
+        <button id="a" class="nota">A</button>
+        <button id="a#" class="nota">A#</button>
+        <button id="b" class="nota">B</button>
+      </span>
+    </header>
+
+    <div class="downContainer">
+      
+      <!-- <div class="transpositor">
+        <div class="tranposição">
+          <h1>Informe para que tom quer transpor</h1>
+          <span class="cabeça">
+            <button id="c" class="nota">C</button>
+            <button id="c#" class="nota">C#/Db</button>
+            <button id="d" class="nota">D</button>
+            <button id="d#" class="nota">D#/Eb</button>
+            <button id="e" class="nota">E</button>
+            <button id="f" class="nota">F</button>
+            <button id="f#" class="nota">F#/Gb</button>
+            <button id="g" class="nota">G</button>
+            <button id="g#" class="nota">G#/Ab</button>
+            <button id="a" class="nota">A</button>
+            <button id="a#" class="nota">A#/Bb</button>
+            <button id="b" class="nota">B</button>
+          </div> -->
+          
+          <!-- div da escala natural -->
+          <div class="natural">
+            <h3 id="escalaNatural"> <span class="color">Escala natural :</span> <span id="spanNatural"></span></h3>
+          </div>
+
+          <!-- div da escala em Bb -->
+          <div class="Bb">
+            <h3 id="escalaBb"> <span class="color">Escala para instrumentos em Bb :</span>  <span id="spanBb"></span></h3>
+          </div>
+
+          <!-- div da escala em Eb -->
+          <div class="Eb">
+            <h3 id="escalaEb">  <span class="color">Escala para instrumentos em Eb :</span> <span id="spanEb"></span></h3>
+          </div>
+
+
+          
+            <!-- <h3><span class="span1">Escala para instrumentos em Eb:</span> -->
+            <!-- <span id="tranposto"> C D E F G A B </span></h3> -->
+      </div>
+    </div>
+  </body>
+</html>
